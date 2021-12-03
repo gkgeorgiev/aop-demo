@@ -1,0 +1,28 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                              http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+  <!--  THIS is generated based on the entities definition-->
+  <changeSet author="user1" id="1623920995532-3">
+    <createTable tableName="BUSINESS_REL">
+      <column defaultValueBoolean="false" name="ARCHIVED" type="BOOLEAN">
+        <constraints nullable="false"/>
+      </column>
+      <column name="HIST_TIMESTAMP" type="TIMESTAMP(6)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="HIST_USR" type="VARCHAR(60 CHAR)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="STAMP" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="UUID" type="VARCHAR(23 CHAR)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="SYS_C007297"/>
+      </column>
+      <column name="RELATION" type="VARCHAR(255 CHAR)">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+  </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,73 @@
+GET http://localhost:8080/api/businessRelationships
+Accept: application/json
+
+######
+PUT http://localhost:8080/api/businessRelationships
+Content-Type: application/json
+
+[
+  {
+    "type": "visible",
+    "uuid": "_7JkS2Nty-l2S0emLjV_kW0"
+  },
+  {
+    "type": "visible",
+    "uuid": "_-Phh-cdigrk_TICVqXRv8H"
+  },
+  {
+    "type": "customer",
+    "uuid": "_fLdHz86UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdH1c6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_fLdH1M6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdvLs6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_fLdHyc6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdHys6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdH0c6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_fLdvLc6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_rr_H_Q_2oYFNapCL9RQiDC"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdH0M6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdHxs6UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_ITufRSYr0yOOnpnzJwMcdq"
+  },
+  {
+    "type": "visible",
+    "uuid": "_fLdHw86UEeujNIM3TF9ZaQ"
+  },
+  {
+    "type": "customer",
+    "uuid": "_fLdHws6UEeujNIM3TF9ZaQ"
+  }
+]
